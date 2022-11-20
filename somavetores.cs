@@ -1,13 +1,13 @@
 using System;
 
-public class produtovetores
+public class multiplicacaovetor
 {
     public static void Main()
     {
     int[] numero = new int[8];
     int[] numero1 = new int[8];
     int i=0;
-    double multiplicacao=1;
+    double soma=1;
     //lendo o primeiro vetor
     Console.WriteLine("digite numeros consecutivamente");
     for(i=0; i<8; i++){
@@ -19,7 +19,8 @@ public class produtovetores
     }
      Console.WriteLine("esse é o produto dos dois vetores");
     for(i=0; i<8; i++){
-    multiplicacao = numero1[i]* numero[i];
-    Console.WriteLine(multiplicacao);
+    soma = numero1[i] + numero[i];
+    Console.WriteLine(soma);
     }
     }
+}
