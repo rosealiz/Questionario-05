@@ -11,10 +11,10 @@ public class multiplicacaovetor
     for(i=0; i<8; i++){
         numero[i] = int.Parse(Console.ReadLine());
     }
-     Console.WriteLine("esses foram os numeros digitados");
+     Console.WriteLine("esse é o produto dos numeros digitados");
     for(i=0; i<8; i++){
     multiplicacao = multiplicacao * numero[i];
-    Console.WriteLine(multiplicacao);
     }
+    Console.WriteLine(multiplicacao);
     }
 }
